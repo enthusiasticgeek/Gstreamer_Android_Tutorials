@@ -22,13 +22,11 @@ vim /opt/GST_ANDROID_SDK/share/gst-android/ndk-build/gstreamer-1.0.mk
 
 **Modify to the following lines (Make should be aware of sed command's presence)**
 
-# Host tools
 ifeq ($(HOST_OS),windows)
     HOST_SED := $(GSTREAMER_NDK_BUILD_PATH)/tools/windows/sed
     GSTREAMER_LD :=
 else
     HOST_SED := sed
-    #SED_LOCAL := sed
 endif
 
 **Then modify to the following**
