@@ -1,7 +1,8 @@
 # Gstreamer_Android_Tutorials
 This is a modified version of android tutorials from gst_docs that was tested to work with Android Studio 2.1 and Gstreamer Binaries version 1.4.4 in Ubuntu 16.04 LTS
 
-OS: Tested On Ubuntu 16.04 LTS (but should be OS independent)
+**OS**
+Tested On Ubuntu 16.04 LTS (but should be OS independent)
 
 Compiled with Android Studio 2.1
 
@@ -9,12 +10,12 @@ http://tools.android.com/download/studio/builds/android-studio-2-1-2
 
 Download and install the Gstreamer binary 1.4.4
 
-cd /opt
-mkdir GST_ANDROID_SDK_1_4_4
-cd GST_ANDROID_SDK_1_4_4
-wget https://gstreamer.freedesktop.org/data/pkg/android/1.4.4/gstreamer-1.0-android-arm-debug-1.4.4.tar.bz2
-sudo tar xvf gstreamer-1.0-android-arm-debug-1.4.4.tar.bz2 
-sudo ln -sf GST_ANDROID_SDK_1_4_4 GST_ANDROID_SDK
+    cd /opt
+    mkdir GST_ANDROID_SDK_1_4_4
+    cd GST_ANDROID_SDK_1_4_4
+    wget https://gstreamer.freedesktop.org/data/pkg/android/1.4.4/gstreamer-1.0-android-arm-debug-1.4.4.tar.bz2
+    sudo tar xvf gstreamer-1.0-android-arm-debug-1.4.4.tar.bz2 
+    sudo ln -sf GST_ANDROID_SDK_1_4_4 GST_ANDROID_SDK
 
 **If using Linux open and modify**
 
