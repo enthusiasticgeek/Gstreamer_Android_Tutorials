@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/virgo/android-tutorial-5/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="27.0.0"
+        sha1="9e96f6070cb60b338b07a6bf5bfc0051ded88743">
+        <dex dex="/home/virgo/android-tutorial-5/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_ff82c51990df61b5f55d1a5adf3a48ce5c559ffe/classes.dex" />
+    </item>
+    <item
+        jar="/home/virgo/android-tutorial-5/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="27.0.0"
+        sha1="87b5ef5fefa5afaee39104d48c4d5198e8d1ad59">
+        <dex dex="/home/virgo/android-tutorial-5/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_050a0e073e4caecfea8f9f83e4cde1b76b7a73e4/classes.dex" />
+    </item>
+
+</items>

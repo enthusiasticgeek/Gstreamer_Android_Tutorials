@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/home/virgo/android-tutorial-5/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/gstreamer_logo_5.png",
+        "source": "/home/virgo/android-tutorial-5/app/src/main/res/drawable-ldpi/gstreamer_logo_5.png"
+    },
+    {
+        "merged": "/home/virgo/android-tutorial-5/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/file.png",
+        "source": "/home/virgo/android-tutorial-5/app/src/main/res/drawable-ldpi/file.png"
+    },
+    {
+        "merged": "/home/virgo/android-tutorial-5/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/folder.png",
+        "source": "/home/virgo/android-tutorial-5/app/src/main/res/drawable-ldpi/folder.png"
+    }
+]
