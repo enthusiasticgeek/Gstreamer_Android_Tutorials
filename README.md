@@ -19,7 +19,7 @@ Download and install the Gstreamer binary 1.4.4
 
 **If using Linux open and modify**
 
-vim /opt/GST_ANDROID_SDK/share/gst-android/ndk-build/gstreamer-1.0.mk
+    vim /opt/GST_ANDROID_SDK/share/gst-android/ndk-build/gstreamer-1.0.mk
 
 **Modify to the following lines (Make should be aware of sed command's presence)**
 
@@ -32,7 +32,9 @@ vim /opt/GST_ANDROID_SDK/share/gst-android/ndk-build/gstreamer-1.0.mk
 
 **Then modify to the following**
 
-vim /opt/GST_ANDROID_SDK/share/gst-android/ndk-build/gstreamer_android-1.0.c.in
+    vim /opt/GST_ANDROID_SDK/share/gst-android/ndk-build/gstreamer_android-1.0.c.in
+    
+ And
 
        __android_log_print (ANDROID_LOG_ERROR, "GStreamer","%s", message);
 
