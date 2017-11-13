@@ -83,7 +83,8 @@ https://developer.android.com/studio/install.html
     GSTREAMER_ROOT_ANDROID (In the Name Field)  /opt/GST_ANDROID_SDK (In the Value Field)
     
     
-#Update:    
+**Update:**    
+
 **Changes to make the example work in Android Studio 3**
 
 Update *build.gradle (app)* as follows
