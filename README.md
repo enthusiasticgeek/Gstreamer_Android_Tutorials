@@ -10,9 +10,13 @@ This is a modified version of android tutorials from gst_docs (Jni and Java) tha
 
 Tested On Ubuntu 16.04 LTS (but should be OS independent)
 
-Compiled with Android Studio 2.1
+Compiled with Android Studio 2.1 and Android Studio 3.0
 
-http://tools.android.com/download/studio/builds/android-studio-2-1-2
+Download the files from the following URL
+
+**Hosted at:**
+
+https://developer.android.com/studio/archive.html
 
 **Download and install the Gstreamer binary 1.4.4**
 
