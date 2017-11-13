@@ -46,6 +46,8 @@ https://developer.android.com/studio/install.html
 
 **SDK, NDK and JRE paths**
 
+** File > Project Structure > SDK Location **
+
 **SDK path**
 
     /home/virgo/Android/Sdk
@@ -58,5 +60,12 @@ https://developer.android.com/studio/install.html
 
     /home/virgo/Android/Sdk/ndk-bundle
 
+** Settings > Appearance and Behavior > Android SDK > SDK Platforms **
+
+    Check everything from Android 2.3 -> Android N
+        
+** Settings > Appearance and Behavior > Android SDK > SDK Tools **
+
+    Check CMake, Check NDK, Check LLDB
 
 
