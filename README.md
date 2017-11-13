@@ -47,12 +47,15 @@ https://developer.android.com/studio/install.html
 **SDK, NDK and JRE paths**
 
 **SDK path**
+
     /home/virgo/Android/Sdk
 
 **JRE path**
+
     /usr/local/java/jdk1.8.0_92
 
 **NDK path**
+
     /home/virgo/Android/Sdk/ndk-bundle
 
 
