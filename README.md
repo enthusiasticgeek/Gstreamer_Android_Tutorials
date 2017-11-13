@@ -80,4 +80,4 @@ https://developer.android.com/studio/install.html
 
 **Settings > Appearance and Behavior > System Settings > Path Variables**
 
-    GSTREAMER_ROOT_ANDROID (Name)  /opt/GST_ANDROID_SDK (Value)
+    GSTREAMER_ROOT_ANDROID (In the Name Field)  /opt/GST_ANDROID_SDK (In the Value Field)
