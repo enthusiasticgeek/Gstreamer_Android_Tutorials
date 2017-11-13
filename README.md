@@ -8,7 +8,7 @@ Compiled with Android Studio 2.1
 
 http://tools.android.com/download/studio/builds/android-studio-2-1-2
 
-Download and install the Gstreamer binary 1.4.4
+**Download and install the Gstreamer binary 1.4.4**
 
     cd /opt
     mkdir GST_ANDROID_SDK_1_4_4
