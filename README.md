@@ -65,10 +65,19 @@ https://developer.android.com/studio/install.html
 
     /home/<username>/Android/Sdk/ndk-bundle
 
-**Settings > Appearance and Behavior > Android SDK > SDK Platforms** 
+**Settings > Appearance and Behavior > System Settings > Android SDK > SDK Platforms** 
 
     Check everything from Android 2.3 -> Android N and click Apply
         
-**Settings > Appearance and Behavior > Android SDK > SDK Tools**
+**Settings > Appearance and Behavior > System Settings > Android SDK > SDK Tools**
 
     Check CMake, Check NDK, Check LLDB (all versions for all 3 packages if allowed) and click Apply.
+        
+**Add PATH in /etc/bash.bashrc**
+
+    export GSTREAMER_ROOT_ANDROID=/opt/GST_ANDROID_SDK
+
+
+**Settings > Appearance and Behavior > System Settings > Path Variables**
+
+    GSTREAMER_ROOT_ANDROID (Name)  /opt/GST_ANDROID_SDK (Value)
