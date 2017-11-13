@@ -85,7 +85,7 @@ https://developer.android.com/studio/install.html
     
 **Update:**    
 
-**Changes to make the example work in Android Studio 3**
+**Changes to get the examples to work in Android Studio 3**
 
 Update *build.gradle (app)* as follows
 
