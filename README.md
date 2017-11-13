@@ -60,12 +60,12 @@ https://developer.android.com/studio/install.html
 
     /home/virgo/Android/Sdk/ndk-bundle
 
-**Settings > Appearance and Behavior > Android SDK > SDK Platforms**
+**Settings > Appearance and Behavior > Android SDK > SDK Platforms** 
 
-    Check everything from Android 2.3 -> Android N
+    Check everything from Android 2.3 -> Android N and click Apply
         
 **Settings > Appearance and Behavior > Android SDK > SDK Tools**
 
-    Check CMake, Check NDK, Check LLDB
+    Check CMake, Check NDK, Check LLDB and click Apply.
 
 
