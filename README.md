@@ -50,7 +50,7 @@ https://developer.android.com/studio/install.html
 
     /home/virgo/Android/Sdk
 
-**JRE path**
+**JRE path** (Assuming jdk1.8.0_92)
 
     /usr/local/java/jdk1.8.0_92
 
