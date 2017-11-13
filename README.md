@@ -81,3 +81,29 @@ https://developer.android.com/studio/install.html
 **Settings > Appearance and Behavior > System Settings > Path Variables**
 
     GSTREAMER_ROOT_ANDROID (In the Name Field)  /opt/GST_ANDROID_SDK (In the Value Field)
+    
+    
+#Update:    
+**Changes to make the example work in Android Studio 3**
+
+Update *build.gradle (app)* as follows
+
+    //def ndkDir = project.plugins.findPlugin('com.android.application').getNdkFolder()
+    //def ndkDir = plugins.getPlugin('com.android.application').sdkHandler.ndkFolder
+    def ndkDir = project.android.ndkDirectory
+    
+as well as the following lines in *build.gradle (app)*
+     
+     //println(project.plugins.findPlugin('com.android.application').getNdkFolder())
+     //println(plugins.getPlugin('com.android.application').sdkHandler.ndkFolder)
+     println(project.android.ndkDirectory)
+
+Ensure the following line is present in *gradle-wrapper.properties*
+
+    distributionUrl=https\://services.gradle.org/distributions/gradle-4.1-all.zip
+    
+Ensure the following line is present in *build.gradle(Project: android-tutorial-<x>)* 
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.0.0'
+    }
