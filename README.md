@@ -71,4 +71,4 @@ https://developer.android.com/studio/install.html
         
 **Settings > Appearance and Behavior > Android SDK > SDK Tools**
 
-    Check CMake, Check NDK, Check LLDB and click Apply.
+    Check CMake, Check NDK, Check LLDB (all versions for all 3 packages if allowed) and click Apply.
