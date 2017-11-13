@@ -1,5 +1,5 @@
 # Gstreamer_Android_Tutorials
-This is a modified version of android tutorials from gst_docs that was tested to work with Android Studio 2.1 and Gstreamer Binaries version 1.4.4 in Ubuntu 16.04 LTS
+This is a modified version of android tutorials from gst_docs (Jni and Java) that was tested to work with Android Studio 2.1 and Gstreamer Binaries version 1.4.4 in Ubuntu 16.04 LTS
 
 **Pre-requisites**
 
