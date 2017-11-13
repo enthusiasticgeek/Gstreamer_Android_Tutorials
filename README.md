@@ -1,7 +1,13 @@
 # Gstreamer_Android_Tutorials
 This is a modified version of android tutorials from gst_docs that was tested to work with Android Studio 2.1 and Gstreamer Binaries version 1.4.4 in Ubuntu 16.04 LTS
 
+**Pre-requisites**
+
+1. Willingness to experiment.
+2. Java JRE or JDK.
+
 **OS**
+
 Tested On Ubuntu 16.04 LTS (but should be OS independent)
 
 Compiled with Android Studio 2.1
@@ -38,7 +44,6 @@ http://tools.android.com/download/studio/builds/android-studio-2-1-2
 
        __android_log_print (ANDROID_LOG_ERROR, "GStreamer","%s", message);
 
-
 **Installation**
 For Android Studio see.
 
@@ -67,5 +72,3 @@ https://developer.android.com/studio/install.html
 **Settings > Appearance and Behavior > Android SDK > SDK Tools**
 
     Check CMake, Check NDK, Check LLDB and click Apply.
-
-
