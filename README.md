@@ -50,7 +50,7 @@ https://developer.android.com/studio/install.html
 
 **SDK path**
 
-    /home/virgo/Android/Sdk
+    /home/<username>/Android/Sdk
 
 **JRE path** (Assuming jdk1.8.0_92)
 
@@ -58,7 +58,7 @@ https://developer.android.com/studio/install.html
 
 **NDK path**
 
-    /home/virgo/Android/Sdk/ndk-bundle
+    /home/<username>/Android/Sdk/ndk-bundle
 
 **Settings > Appearance and Behavior > Android SDK > SDK Platforms** 
 
