@@ -69,7 +69,7 @@ https://developer.android.com/studio/install.html
 
     /home/<username>/Android/Sdk
 
-**JRE path** (Assuming jdk1.8.0_92)
+**JRE path** (Assuming jdk1.8.0_92) **Note: One may also leave this to default Android Studio's embedded JDK**
 
     /usr/local/java/jdk1.8.0_92
 
