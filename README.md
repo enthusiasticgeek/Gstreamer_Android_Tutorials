@@ -52,7 +52,7 @@ https://developer.android.com/studio/archive.html
 
     vim /opt/GST_ANDROID_SDK/share/gst-android/ndk-build/gstreamer_android-1.0.c.in
     
- And
+ and ensure the line is updated as follows
 
        __android_log_print (ANDROID_LOG_ERROR, "GStreamer","%s", message);
 
