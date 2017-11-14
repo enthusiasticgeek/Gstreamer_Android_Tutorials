@@ -108,7 +108,12 @@ Ensure the following line is present in *gradle-wrapper.properties*
     distributionUrl=https\://services.gradle.org/distributions/gradle-4.1-all.zip
     
 Ensure the following line is present in *build.gradle(Project: android-tutorial-<x>)* 
+    
+    jcenter()
+    google() #<--------- Add this to the list of repositories
 
     dependencies {
         classpath 'com.android.tools.build:gradle:3.0.0'
     }
+    
+    
