@@ -119,6 +119,6 @@ Ensure the following line is present in *build.gradle(Project: android-tutorial-
     
 **Trouble-shooting**
 
-One can check error from the parent directory using the tool *gradlew* especially for ndk build files.
+One can check error from the project's parent directory using the tool *gradlew* especially for ndk build files.
 
     ./gradlew  tasks app:ndkLibsToJar app:ndkBuild --stacktrace
