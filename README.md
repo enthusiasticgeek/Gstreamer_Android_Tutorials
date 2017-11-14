@@ -39,6 +39,14 @@ https://developer.android.com/studio/archive.html
     else
         HOST_SED := sed
     endif
+    
+**In the same file gstreamer-1.0.mk modify the following**
+
+    #GSTREAMER_LD                  := -fuse-ld=gold  #<---------- comment out this line
+    
+    #Add the following line instead
+    GSTREAMER_LD                  := -fuse-ld=gold -Wl,-soname,lib$(GSTREAMER_ANDROID_MODULE_NAME).so
+
 
 **Then modify to the following**
 
@@ -122,3 +130,5 @@ Ensure the following line is present in *build.gradle(Project: android-tutorial-
 One can check error from the project's parent directory using the tool *gradlew* especially for ndk build files.
 
     ./gradlew  tasks app:ndkLibsToJar app:ndkBuild --stacktrace
+
+Android Studio caching mechanism is weird. I have tried to always perform "sync" wherever recommended after running the above command. I have also ended up "File > Synchronize" and "File > Invalidate Caches/ Restart" depending on the version of Android Studio.
