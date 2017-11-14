@@ -76,6 +76,11 @@ https://developer.android.com/studio/install.html
 **NDK path**
 
     /home/<username>/Android/Sdk/ndk-bundle
+  
+**For every Project's local.properties file update the following information (or to appropriate installation directories if not default location)**
+    
+    ndk.dir=/home/<your home directory username>/Android/Sdk/ndk-bundle
+    sdk.dir=/home/<your home directory username>/Android/Sdk
 
 **Settings > Appearance and Behavior > System Settings > Android SDK > SDK Platforms** 
 
