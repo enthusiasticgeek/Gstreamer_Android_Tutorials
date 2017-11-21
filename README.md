@@ -137,3 +137,31 @@ One can check error from the project's parent directory using the tool *gradlew*
     ./gradlew  tasks app:ndkLibsToJar app:ndkBuild app:assembleDebug --stacktrace
 
 Android Studio caching mechanism is weird. I have tried to always perform "sync" wherever recommended after running the above command. I have also ended up "File > Synchronize" and "File > Invalidate Caches/ Restart" depending on the version of Android Studio.
+
+**I have been having trouble with ndk 16 (r16) (jni.h not found) so I reverted to ndk 15 (r15c)** 
+
+I read the announcements in r16 which I replicate below 
+
+
+        The deprecated headers have been removed. Unified Headers are now simply "The Headers". For migration tips, see Unified Headers Migration Notes.
+        GCC is no longer supported. It will not be removed from the NDK just yet, but is no longer receiving backports. It cannot be removed until after libc++ has become stable enough to be the default, as some parts of gnustl are still incompatible with Clang. It will be removed when the other STLs are removed in r18.
+        libc++ is out of beta and is now the preferred STL in the NDK. Starting in r17, libc++ is the default STL for CMake and standalone toolchains. If you manually selected a different STL, we strongly encourage you to move to libc++. For more details, see this blog post.
+        Support for ARM5 (armeabi), MIPS, and MIPS64 are deprecated. They will no longer build by default with ndk-build, but are still buildable if they are explicitly named, and will be included by "all", "all32", and "all64". Support for each of these has been removed in r17. Both CMake and ndk-build will issue a warning if you target any of these ABIs.
+
+To make it work with r15
+
+I simply did the following steps
+
+First download the ndk 15c
+
+https://developer.android.com/ndk/downloads/older_releases.html#ndk-15c-downloads
+
+    cd ~/Android/Sdk
+    mv ndk-bundle ndk-bundle.orig
+    mv ~/Downloads/android-ndk-r15c-linux-x86_64.zip .
+    unzip android-ndk-r15c-linux-x86_64.zip
+    ln -sf android-ndk-r15c ndk-bundle
+
+Then from the parent directory of the folder
+
+    ./gradlew  tasks app:ndkLibsToJar app:ndkBuild app:assembleDebug --stacktrace
