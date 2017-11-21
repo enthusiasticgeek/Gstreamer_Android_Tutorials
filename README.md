@@ -134,6 +134,6 @@ Ensure the following line is present in *build.gradle(Project: android-tutorial-
 
 One can check error from the project's parent directory using the tool *gradlew* especially for ndk build files.
 
-    ./gradlew  tasks app:ndkLibsToJar app:ndkBuild --stacktrace
+    ./gradlew  tasks app:ndkLibsToJar app:ndkBuild app:assembleDebug --stacktrace
 
 Android Studio caching mechanism is weird. I have tried to always perform "sync" wherever recommended after running the above command. I have also ended up "File > Synchronize" and "File > Invalidate Caches/ Restart" depending on the version of Android Studio.
