@@ -1,5 +1,5 @@
 # Gstreamer_Android_Tutorials
-This is a modified version of android tutorials from gst_docs (Jni and Java) that was tested to work with Android Studio 2.1 and Gstreamer Binaries version 1.4.4 in Ubuntu 16.04 LTS
+This is a modified version of android tutorials from gst_docs (Jni and Java) that was tested to work with Android Studio 3.0, NDK 15c and Gstreamer Binaries version 1.12.3 in Ubuntu 16.04 LTS
 
 **Pre-requisites**
 
@@ -10,7 +10,7 @@ This is a modified version of android tutorials from gst_docs (Jni and Java) tha
 
 Tested On Ubuntu 16.04 LTS (but should be OS independent)
 
-Compiled with Android Studio 2.1 and Android Studio 3.0
+Compiled with Android Studio 3.0
 
 Download the files from the following URL
 
@@ -18,7 +18,7 @@ Download the files from the following URL
 
 https://developer.android.com/studio/archive.html
 
-**Download and install the Gstreamer binary 1.4.4**
+**Download and install the Gstreamer binary 1.4.4** (**Update** - Now also tested with version 1.12.3)
 
     cd /opt
     mkdir GST_ANDROID_SDK_1_4_4
