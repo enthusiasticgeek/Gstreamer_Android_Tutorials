@@ -12,7 +12,7 @@ ifndef GSTREAMER_ROOT_ANDROID
 $(error GSTREAMER_ROOT_ANDROID is not defined!)
 endif
 
-GSTREAMER_ROOT        := $(GSTREAMER_ROOT_ANDROID)
+GSTREAMER_ROOT        := $(GSTREAMER_ROOT_ANDROID)/armv7
 
 GSTREAMER_NDK_BUILD_PATH  := $(GSTREAMER_ROOT)/share/gst-android/ndk-build/
 GSTREAMER_PLUGINS         := coreelements
