@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/virgo/Gstreamer_Android_Tutorials/android-tutorial-5/app/build/intermediates/res/merged/debug/values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/virgo/Gstreamer_Android_Tutorials/android-tutorial-5/app/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "2,6,3,5,4,9,7,10,8",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,252,113,203,158,406,301,473,360",
+                        "endColumns": "57,48,44,48,44,66,58,37,45",
+                        "endOffsets": "108,296,153,247,198,468,355,506,401"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,113,162,207,256,301,368,427,465",
+                        "endColumns": "57,48,44,48,44,66,58,37,45",
+                        "endOffsets": "108,157,202,251,296,363,422,460,506"
+                    }
+                }
+            ]
+        }
+    ]
+}

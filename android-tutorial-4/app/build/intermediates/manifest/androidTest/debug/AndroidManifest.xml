@@ -4,7 +4,7 @@
 
     <uses-sdk android:minSdkVersion="9" android:targetSdkVersion="14" />
 
-    <application>
+    <application android:debuggable="true" >
         <uses-library android:name="android.test.runner" />
     </application>
 

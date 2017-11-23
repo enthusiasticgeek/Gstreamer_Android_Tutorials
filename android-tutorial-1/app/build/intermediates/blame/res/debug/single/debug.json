@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "/home/virgo/Gstreamer_Android_Tutorials/android-tutorial-1/app/build/intermediates/res/merged/debug/drawable-ldpi_gstreamer_logo_1.png.flat",
+        "source": "/home/virgo/Gstreamer_Android_Tutorials/android-tutorial-1/app/src/main/res/drawable-ldpi/gstreamer_logo_1.png"
+    },
+    {
+        "merged": "/home/virgo/Gstreamer_Android_Tutorials/android-tutorial-1/app/build/intermediates/res/merged/debug/drawable-hdpi_gstreamer_logo_1.png.flat",
+        "source": "/home/virgo/Gstreamer_Android_Tutorials/android-tutorial-1/app/src/main/res/drawable-hdpi/gstreamer_logo_1.png"
+    },
+    {
+        "merged": "/home/virgo/Gstreamer_Android_Tutorials/android-tutorial-1/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_gstreamer_logo_1.png.flat",
+        "source": "/home/virgo/Gstreamer_Android_Tutorials/android-tutorial-1/app/src/main/res/drawable-xxxhdpi/gstreamer_logo_1.png"
+    },
+    {
+        "merged": "/home/virgo/Gstreamer_Android_Tutorials/android-tutorial-1/app/build/intermediates/res/merged/debug/drawable-xxhdpi_gstreamer_logo_1.png.flat",
+        "source": "/home/virgo/Gstreamer_Android_Tutorials/android-tutorial-1/app/src/main/res/drawable-xxhdpi/gstreamer_logo_1.png"
+    },
+    {
+        "merged": "/home/virgo/Gstreamer_Android_Tutorials/android-tutorial-1/app/build/intermediates/res/merged/debug/layout_main.xml.flat",
+        "source": "/home/virgo/Gstreamer_Android_Tutorials/android-tutorial-1/app/src/main/res/layout/main.xml"
+    },
+    {
+        "merged": "/home/virgo/Gstreamer_Android_Tutorials/android-tutorial-1/app/build/intermediates/res/merged/debug/drawable-xhdpi_gstreamer_logo_1.png.flat",
+        "source": "/home/virgo/Gstreamer_Android_Tutorials/android-tutorial-1/app/src/main/res/drawable-xhdpi/gstreamer_logo_1.png"
+    },
+    {
+        "merged": "/home/virgo/Gstreamer_Android_Tutorials/android-tutorial-1/app/build/intermediates/res/merged/debug/drawable-mdpi_gstreamer_logo_1.png.flat",
+        "source": "/home/virgo/Gstreamer_Android_Tutorials/android-tutorial-1/app/src/main/res/drawable-mdpi/gstreamer_logo_1.png"
+    }
+]

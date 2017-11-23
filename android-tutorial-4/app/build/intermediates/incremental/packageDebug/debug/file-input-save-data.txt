@@ -1,0 +1,27 @@
+#Internal package file, do not edit.
+#Thu Nov 23 17:40:32 EST 2017
+2.base=/home/virgo/Gstreamer_Android_Tutorials/android-tutorial-4/app/build/intermediates/transforms/stripDebugSymbol/debug/0
+5.set=NATIVE_RESOURCE
+0.path=fontconfig/fonts.conf
+2.baseType=DIRECTORY
+3.base=/home/virgo/Gstreamer_Android_Tutorials/android-tutorial-4/app/build/intermediates/assets/debug
+2.set=NATIVE_RESOURCE
+1.path=fontconfig/fonts/truetype/Ubuntu-R.ttf
+4.base=/home/virgo/Gstreamer_Android_Tutorials/android-tutorial-4/app/build/intermediates/transforms/dexMerger/debug/0
+count=6
+5.baseType=DIRECTORY
+2.path=lib/armeabi-v7a/libtutorial-4.so
+5.base=/home/virgo/Gstreamer_Android_Tutorials/android-tutorial-4/app/build/intermediates/transforms/stripDebugSymbol/debug/0
+4.set=DEX
+3.path=ssl/certs/ca-certificates.crt
+3.baseType=DIRECTORY
+1.set=ASSET
+4.path=classes.dex
+1.baseType=DIRECTORY
+5.path=lib/armeabi-v7a/libgstreamer_android.so
+0.base=/home/virgo/Gstreamer_Android_Tutorials/android-tutorial-4/app/build/intermediates/assets/debug
+0.baseType=DIRECTORY
+3.set=ASSET
+1.base=/home/virgo/Gstreamer_Android_Tutorials/android-tutorial-4/app/build/intermediates/assets/debug
+4.baseType=DIRECTORY
+0.set=ASSET
