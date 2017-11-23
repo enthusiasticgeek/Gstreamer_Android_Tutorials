@@ -55,9 +55,12 @@ task ndkLibsToJar(type: Zip, dependsOn: 'ndkBuild', description: 'Create a JAR o
 // Build native code using mk files like on Eclipse
 task ndkBuild(type: Exec, description: 'Compile JNI source via NDK') {
     //def ndkDir = project.plugins.findPlugin('com.android.application').getNdkFolder()
-    def ndkDir = plugins.getPlugin('com.android.application').sdkHandler.ndkFolder
-//    println(project.plugins.findPlugin('com.android.application').getNdkFolder())
-    println(plugins.getPlugin('com.android.application').sdkHandler.ndkFolder)
+    //def ndkDir = plugins.getPlugin('com.android.application').sdkHandler.ndkFolder
+    def ndkDir = project.android.ndkDirectory
+
+    //println(project.plugins.findPlugin('com.android.application').getNdkFolder())
+    //println(plugins.getPlugin('com.android.application').sdkHandler.ndkFolder)
+    println(project.android.ndkDirectory)
 
 
     //commandLine "/home/virgo/Android/Sdk/ndk-bundle/ndk-build/",
