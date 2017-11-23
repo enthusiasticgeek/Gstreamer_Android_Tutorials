@@ -12,21 +12,7 @@ ifndef GSTREAMER_ROOT_ANDROID
 $(error GSTREAMER_ROOT_ANDROID is not defined!)
 endif
 
-ifeq ($(TARGET_ARCH_ABI),armeabi)
-GSTREAMER_ROOT        := $(GSTREAMER_ROOT_ANDROID)/arm
-else ifeq ($(TARGET_ARCH_ABI),armeabi-v7a)
 GSTREAMER_ROOT        := $(GSTREAMER_ROOT_ANDROID)/armv7
-else ifeq ($(TARGET_ARCH_ABI),arm64-v8a)
-GSTREAMER_ROOT        := $(GSTREAMER_ROOT_ANDROID)/arm64
-else ifeq ($(TARGET_ARCH_ABI),x86)
-GSTREAMER_ROOT        := $(GSTREAMER_ROOT_ANDROID)/x86
-else ifeq ($(TARGET_ARCH_ABI),x86_64)
-GSTREAMER_ROOT        := $(GSTREAMER_ROOT_ANDROID)/x86_64
-else
-$(error Target arch ABI not supported: $(TARGET_ARCH_ABI))
-endif
-
-GSTREAMER_ROOT        := $(GSTREAMER_ROOT_ANDROID)
 LOCAL_ARM_MODE := arm
 
 GSTREAMER_NDK_BUILD_PATH  := $(GSTREAMER_ROOT)/share/gst-android/ndk-build/
